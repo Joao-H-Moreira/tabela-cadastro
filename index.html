@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="desafio.css">
+<title>Cadastrar Medico</title>
+</head>
+<body>
+
+
+
+<div class="flex">
+    <label for="preco">Digite o Nome do medico:</label>
+    <input type="text" name="nome" id="nome" placeholder="Escreva o nome do medico" />
+</div>
+
+
+<div class="container">
+    <div class="flex">
+    <label for="especialidade">Escolha a especialidade:</label>
+        <select name="especialidade" id="especialidade">
+        <option value="Pediatria">Pediatria</option>
+        <option value="Neurologia">Neurologia</option>
+        <option value="Cardiologia">Cardiologia</option>
+        </select>
+    </div>
+</div>  
+
+<div class="flex">
+ <label for="crm">Digite o CRM:</label>
+<input type="text" name="crm" id="crm" placeholder="Escreva o CRM" />
+</div>
+
+</div>
+<button class="cadastrar">Cadastrar</button>
+</div>
+
+<div class="flex-horizontal">
+    <table class="tabela">
+        <tr>
+        <th>Nome</th>
+        <th>Especialidade</th>
+        <th>CRM</th>
+        </tr>
+    </table>
+</div>
+
+<script src="desafio.js"></script>
+</body>
+</html>
